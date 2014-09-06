@@ -61,7 +61,7 @@ my $dsp = IO::Socket::SSL->new(
 $dsp->autoflush(1);
 print $dsp "NICK $nickname\r\n";
 print $dsp "USER MatriX 8 *  : I am From ZioN \r\n";
-#print $dsp "NickServ identify ewe4reel\r\n"; #Assign a nickserv pass to authenticate bot on server.
+#print $dsp "NickServ identify password\r\n"; #Assign a nickserv pass to authenticate bot on server.
 sleep(1);
 
 
