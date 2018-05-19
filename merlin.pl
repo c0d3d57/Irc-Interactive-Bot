@@ -321,7 +321,7 @@ if($line =~ /:(.*)!(.*) PRIVMSG (.*) :i will kill you/){
 if ($line=~ /:(.*)!(.*) PRIVMSG \Q$nickname\E :!join\s+(.*)/ ) { #This makes the bot join a channel
     print $dsp "Join $3\r\n";
     print $dsp "Join $3\r\n";
-    print $dsp "NickServ identify ewe4reel\r\n";
+    print $dsp "NickServ identify password\r\n";
 }
 
 if ($line=~ /:(.*)!(.*) PRIVMSG \Q$nickname\E :!part\s+(.*)/ ) { #This makes the bot part a channel.
