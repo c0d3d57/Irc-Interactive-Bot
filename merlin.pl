@@ -28,8 +28,8 @@ $SIG{'PIPE'},IGNORE;
 
 my $os= "$^O";
 if ($os eq 'MSWin32'){
-    print "\n   Your Operating System is $os, therefore, this program may not function maximally.\n";
-    print "\n	I advice you re-run on a Unix system. However, I'll proceed with connection.\n";
+    print "\n   Your Operating System is $os, therefore, this program may not function efficiently.\n";
+    print "\n	I advice you re-run on a Linux system. However, I'll proceed with connection.\n";
     sleep(10);
     system("cls");
     }else{
