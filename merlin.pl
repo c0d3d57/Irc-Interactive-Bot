@@ -38,9 +38,8 @@ if ($os eq 'MSWin32'){
 
     print "\n*===============================================*\n";
     print "   IRC Bot - Merlin\n";
-    print "   Author: Evans Osoba - c0d3d[at]hotmail.com\n";
     print "   Merlin is an IRC Bot written in perl language\n";
-    print "   Sometimes in our chat life, we all need an interactive channel bot,\n";
+    print "   Sometimes in our irc life, we all need an interactive channel bot,\n";
     print "   So here comes Merlin. Feel free to update and share,\nbut please reserve the author's credit. \n";
     print "   \n";
     print "   Your operating system is $os \n";
